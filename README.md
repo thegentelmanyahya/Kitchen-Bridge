@@ -1,5 +1,5 @@
-# Food Ordering Website
-As the name says it all, it a simple full stack project which is used for ordering food from your favourite restaurant. It is a user friendly and responsive website. 
+# Kitchen Bridge
+As the name says it all, It's a web application designed to connect home-based chefs with customers seeking homemade meals. 
 
 ## Features :
 - The project has two interface i.e. an user interface and an admin interface.
@@ -10,7 +10,6 @@ As the name says it all, it a simple full stack project which is used for orderi
     - Add new food to the food menu.
     - Change the price of cuisine as per inflation rate.
     - View and dispatch order of the customers.
-- Admin can also verify the working of the website from his own end.
 - Use cookies for login into the account.
 
 ## Build With :
@@ -26,7 +25,7 @@ As the name says it all, it a simple full stack project which is used for orderi
 ## Install and Run :
 - Clone the repository or download the zip folder.
 - Extract the zip folder.
-- Import the data from the ``` FoodOrderingWebsite.sql ``` file to your ``` MySQL``` Database.
+- Import the data from the ``` KitchenBridge.sql ``` file to your ``` MySQL``` Database.
 - Install NodeJS in your system.
 - Go to the folder where you have extracted or cloned the project.
 - Open command prompt or terminal having the same location where your project is.
@@ -34,20 +33,10 @@ As the name says it all, it a simple full stack project which is used for orderi
 - Now to run the project on your server type ``` npm start ``` .
 
 ## Screenshot :
-Here are some of the screenshot of Food Ordering Website.
+Here are some of the screenshots of Kitchen Bridge Website.
 
-1. Landing Page :<br><br> <img src="screenshot/Landing Page.png"><br><br>
-2. SignUp  Page :<br><br> <img src="screenshot/Sign Up Page.png"><br><br>
-3. SignIn Page :<br><br> <img src="screenshot/Sign In Page.png"><br><br>
-4. Home Page : <br><br> <img src="screenshot/Homepage.png"><br><br>
-5. Menu List : <br><br> <img src="screenshot/Menu Cart.png"><br><br>
-6. Cart Page : <br><br> <img src="screenshot/My Cart Page.png"><br><br>
-7. Confirmation Page :<br><br> <img src="screenshot/Order Confirmation Page.png"><br><br>
-8. Details and Order History Page :<br><br> <img src="screenshot/Details and Order History Page.png"><br><br>
-9. Settings Page :<br><br> <img src="screenshot/Settings Page.png"><br><br>
-10. Sign Out Option :<br><br> <img src="screenshot/Sign Out.png"><br><br>
-11. Admin Sign In Page : <br><br> <img src="screenshot/Admin Login Page.png"><br><br>
-12. Admin Welcome Page :<br><br> <img src="screenshot/Admin Welcome Page.png"><br><br>
-13. Admin Adding Food Page :<br><br> <img src="screenshot/Admin Adding Food Page.png"><br><br>
-14. Changing Price of Cuisine :<br><br> <img src="screenshot/Changing Price of Cuisine.png"><br><br>
-14. Admin Order View & Dispatching Page :<br><br> <img src="screenshot/Admin Viewing and Dispatching Order Page.png"><br><br>
+1. Landing Page :<img width="1678" alt="image" src="https://github.com/user-attachments/assets/d0b4bca2-742d-4650-8d9b-cf3d2b6e80bb" />
+
+3. SignIn Page :<img width="1678" alt="image" src="https://github.com/user-attachments/assets/f811a41f-fd23-44ab-82b7-127a0bb30080" />
+
+4. Home Page : <img width="1678" alt="image" src="https://github.com/user-attachments/assets/1abb631d-d37b-4cbe-affc-a49aa69742cf" />
