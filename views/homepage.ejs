@@ -100,11 +100,11 @@
                                         All
                                     </li>
                                     <li class="filter" data-filter=".breakfast">
-                                        <img src="/images/menu-2.png" alt="">
+                                        <img src="/images/biscuit.png" alt="" width="50" height="30" >
                                         Moroccan cakes
                                     </li>
                                     <li class="filter" data-filter=".lunch">
-                                        <img src="/images/menu-3.png" alt="">
+                                        <img src="/images/dinde.png" alt="" width="40" height="30">
                                         Main dishes
                                     </li>
                                     <li class="filter" data-filter=".dinner">
@@ -136,20 +136,12 @@
                                         <h3 class="h3-title">
                                             <%= items[i].item_name %>
                                         </h3>
-                                        <p>
-                                            <%= items[i].item_calories %>
-                                        </p>
                                     </div>
                                     <div class="dish-info">
                                         <ul>
+                                            
                                             <li>
-                                                <p>Type</p>
-                                                <b>
-                                                    <%= items[i].item_type %>
-                                                </b>
-                                            </li>
-                                            <li>
-                                                <p>Persons</p>
+                                                <p>poids en kg</p>
                                                 <b>
                                                     <%= items[i].item_serving %>
                                                 </b>
@@ -159,7 +151,7 @@
                                     <div class="dist-bottom-row">
                                         <ul>
                                             <li>
-                                                <b>₹ <%= items[i].item_price %></b>
+                                                <b><%= items[i].item_price %> MAD</b>
                                             </li>
                                             <li>
                                                 <button class="dish-add-btn" id="btn<%= items[i].item_id %>"
